@@ -33,6 +33,8 @@ USE_PROPRIETARY_AUDIO_EXTENSIONS := false
 
 BOARD_HAL_STATIC_LIBRARIES := libdumpstate.grouper
 
+BOARD_KERNEL_CMDLINE := androidboot.hardware=grouper androidboot.selinux=permissive
+
 TARGET_RELEASETOOLS_EXTENSIONS := device/asus/grouper
 
 -include vendor/asus/grouper/BoardConfigVendor.mk
